@@ -1,0 +1,31 @@
+baseURL: "LearnerHei.github.io/"
+languageCode: "zh-cn"
+title: "LearnerHei 的大模型笔记"
+theme: "PaperMod"
+
+menu:
+  main:
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 40
+
+params:
+  env: production
+  title: "LearnerHei 的大模型笔记"
+  description: "记录学习 LangChain 与大模型的每一个脚印"
+  author: "LearnerHei"
+  defaultTheme: auto # 自动切换深色/浅色模式
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true # 显示代码复制按钮，写代码必备！
